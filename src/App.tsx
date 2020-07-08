@@ -1,15 +1,8 @@
-import * as React from "react";
+import React from "react";
 import "./App.css";
 
-export interface AppProps {
-  compiler: string;
-  framework: string;
+function App() {
+  return <div className="App"></div>;
 }
-
-const App = (props: AppProps) => (
-  <h1>
-    Welcome from {props.compiler} and {props.framework}!
-  </h1>
-);
 
 export default App;
